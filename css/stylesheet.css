@@ -14,10 +14,10 @@ nav ul li::after {
   display: block;
   width: 0;
   height: 2px;
-  margin-top: -5px;
+  margin-top: -2px;
   background: #E0562A;
 background: linear-gradient(90deg,rgba(224, 86, 42, 1) 0%, rgba(244, 171, 41, 1) 100%);
-  transition: width ease .2s;
+  transition: width ease .5s;
 }
 
 nav ul li:hover::after {
