@@ -1,14 +1,44 @@
 body{
     background-color: black;
 }
+
+header{
+    max-width: 100%;
+    height: 90px;
+    background-color: black;
+      
+}
+
+nav ul li::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  margin-top: -5px;
+  background: #E0562A;
+background: linear-gradient(90deg,rgba(224, 86, 42, 1) 0%, rgba(244, 171, 41, 1) 100%);
+  transition: width ease .2s;
+}
+
+nav ul li:hover::after {
+  width: 100%;
+}
 .bg{
     max-width: 100%;
     height: 800px;
-    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.georgeinstitute.org%2Fnews-and-media%2Fnews%2Fcelebrating-world-food-day&psig=AOvVaw0Ido6Aa6SYi75BON1V1G7D&ust=1762611777364000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCIDbmNme4JADFQAAAAAdAAAAABAE");
+    background-image: url("../well-done-steak-homemade-potatoes.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     color: white !important;
-    margin-top: 200px;
+    margin-top: -50px;
 }
 
+.op{
+     max-width: 100%;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.413);
+ 
+}
 .faq-section {
   max-width: 800px;
   margin: 50px auto;
