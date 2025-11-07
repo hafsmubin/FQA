@@ -195,13 +195,12 @@ section h2{
 }
 
 
-
         .reserve-section {
             padding: 80px 0;
         }
 
         .reserve-text h5 {
-            color: #c0c0c0;
+            color: #B58C67;
             font-size: 14px;
             letter-spacing: 2px;
         }
@@ -213,7 +212,7 @@ section h2{
         }
 
         .reserve-text h1 span {
-            color: #b5b28c;
+            color:#B58C67;
         }
 
         .reserve-card {
@@ -224,7 +223,7 @@ section h2{
         }
 
         .btn-reserve {
-            background: #b5b28c;
+            background: #B58C67;
             border: none;
             padding: 12px;
             font-size: 16px;
